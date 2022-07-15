@@ -7,5 +7,12 @@
     Returns:
         list: return answer
 */
+List func(a) {
+  List s = ['apple', 'pinapple'];
+  s.add(a);
+  return s;
+}
 
-void main() {}
+void main() {
+  print(func('fruit'));
+}
