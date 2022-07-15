@@ -14,5 +14,5 @@ List func(a) {
 }
 
 void main() {
-  print(func('fruit'));
+  print(func('orange'));
 }
