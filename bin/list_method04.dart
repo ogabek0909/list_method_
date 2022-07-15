@@ -7,5 +7,10 @@
     Returns:
         list: return answer
 */
+num func(List<num> a, int i) {
+  return a.removeAt(i);
+}
 
-void main() {}
+void main() {
+  print(func([21, 23, 2.2], 2));
+}
