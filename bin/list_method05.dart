@@ -10,11 +10,14 @@
         list: return answer
 */
 List func(List a, List b) {
+  //b.add(a.removeLast());
   b.add(a.removeLast());
   b.insertAll(0, a);
+  //b.removeAt(a.length - 1);
+
   return b;
 }
 
 void main() {
-  print(func([21, 2, 233, 3, 3, 4], [1, 234, 34, 545]));
+  print(func([21, 2, 233, 3, 4], [1, 234, 34, 545]));
 }
