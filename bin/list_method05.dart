@@ -9,5 +9,12 @@
     Returns:
         list: return answer
 */
+List func(List a, List b) {
+  b.add(a.removeLast());
+  b.insertAll(0, a);
+  return b;
+}
 
-void main() {}
+void main() {
+  print(func([21, 2, 233, 3, 3, 4], [1, 234, 34, 545]));
+}
