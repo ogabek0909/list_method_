@@ -7,12 +7,11 @@
     Returns:
         list: return answer
 */
-List func(a) {
-  List s = ['apple', 'pinapple'];
+List func(List s, String a) {
   s.add(a);
   return s;
 }
 
 void main() {
-  print(func('orange'));
+  print(func(['asddsf', 'sdfs'], 'orange'));
 }
