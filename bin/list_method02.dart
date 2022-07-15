@@ -8,11 +8,11 @@
     Returns:
         list: return answer 
 */
-List func(int i, String x, List fruits) {
+List func(List fruits, String x, int i) {
   fruits.insert(i, x);
   return fruits;
 }
 
 void main() {
-  print(func(2, 'salom', ['hi', 'sdad', 'dsad', 'dfsdf']));
+  print(func(['hi', 'sdad', 'dsad', 'dfsdf'], 'salom', 0));
 }
