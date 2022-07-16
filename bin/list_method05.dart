@@ -11,9 +11,11 @@
 */
 List func(List a, List b) {
   //b.add(a.removeLast());
-  b.add(a.removeLast());
-  b.insertAll(0, a);
+  //b.add(a.removeLast());
+  //b.addAll(a);
   //b.removeAt(a.length - 1);
+  a.removeLast();
+  b.addAll(a);
 
   return b;
 }
