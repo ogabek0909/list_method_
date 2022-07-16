@@ -19,5 +19,5 @@ List func(List a, List b) {
 }
 
 void main() {
-  print(func([21, 2, 233, 3, 4], [1, 234, 34, 545]));
+  print(func([45, 2, 233, 3, 4], [1, 234, 34, 545]));
 }
