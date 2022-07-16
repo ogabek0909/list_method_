@@ -10,7 +10,7 @@
 int func(List a) {
   int q = 0;
   int y = 0;
-  int s = a.length - 1;
+  int s = a.length + 1;
   while (q < s) {
     if (a.contains(0)) {
       y++;
@@ -21,5 +21,5 @@ int func(List a) {
 }
 
 void main() {
-  print(func([0, 0, 0, 0, 1, 1, 0]));
+  print(func([0, 1, 0, 1, 0, 0]));
 }

@@ -6,5 +6,18 @@
     Returns:
         list: return answer
 */
+List func(List a) {
+  int q = 0;
+  int y = 0;
+  int s = a.length - 1;
 
-void main() {}
+  while (q < s) {
+    a.remove('apple');
+    q++;
+  }
+  return a;
+}
+
+void main() {
+  print(func(['apple', 'apple', 'banana']));
+}
