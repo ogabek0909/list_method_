@@ -10,14 +10,14 @@
 int func(List a) {
   int q = 0;
   int y = 0;
-  int s = a.length + 1;
-  while (q < s) {
-    if (a.contains(0)) {
+  int s = a.length - 1;
+  while (q <= s) {
+    if (a[q] == 0) {
       y++;
     }
     q++;
   }
-  return q;
+  return y;
 }
 
 void main() {
