@@ -14,7 +14,7 @@ List func(List a, List b) {
   //b.add(a.removeLast());
   //b.addAll(a);
   //b.removeAt(a.length - 1);
-  a.removeLast();
+
   b.insertAll(0, a);
 
   return b;
