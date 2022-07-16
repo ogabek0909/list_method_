@@ -11,9 +11,9 @@ int func(List a) {
   int q = 0;
   int y = a.length - 1;
   //q = a.indexOf('apple');
-  while (y > r) {
+  while (y >= r) {
     //a.remove(r);
-    if (a.contains('apple')) {
+    if (a[r] == 'apple') {
       q++;
     }
     r++;
